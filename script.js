@@ -12,7 +12,7 @@ app.use(function(req,res,next){
 app.use(function(req,res,next){
     console.log("This is middleware 2");
     next();
-})
+})  
 
 
 
